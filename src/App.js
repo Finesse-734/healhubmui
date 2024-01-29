@@ -3,6 +3,7 @@ import { ColorModeContext, useMode } from "./theme";
 import { ThemeProvider, CssBaseline } from "@mui/material";
 import Landing from "./scenes/LandingPage/Landing";
 import Rdashboard from "./scenes/ReceptionDashboard/Rdashboard";
+import Register from "./scenes/RegistrationForm/register"
 
 function App() {
   const [theme,colorMode] = useMode();
